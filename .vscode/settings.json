@@ -1,0 +1,19 @@
+{
+    "eslint.probe": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "html",
+        "vue",
+        "markdown",
+        "jsx"
+    ],
+    "eslint.rules.customizations": [
+        
+        "react/self-closing-comp": ["error", {
+          "component": true,
+          "html": true
+        }]
+    ]
+}
